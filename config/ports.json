@@ -1,0 +1,6 @@
+{
+  "loadTestPort": {
+    "type": "TCP",
+    "Port": 10900
+  }
+}

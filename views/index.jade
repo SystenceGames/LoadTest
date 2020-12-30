@@ -1,0 +1,20 @@
+﻿extends layout
+
+block generalBlock
+	a(name="general")
+	h3: b General
+
+	form(name = "start", method="post", action="/admin/start")
+		| NumPlayers
+		input(type="number", name="numPlayers")
+		br
+		| Duration
+		input(type="number", name="duration")
+		br
+		| Ramp Duration
+		input(type="number", name="rampDuration")
+		br
+		input(type="submit", align="right", value="Start")
+
+	form(name = "stop", method="post", action="/admin/stop")
+		input(type="submit", align="right", value="Stp[")

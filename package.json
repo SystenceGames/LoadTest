@@ -1,0 +1,39 @@
+{
+  "name": "load-test",
+  "version": "0.0.0",
+  "description": "LoadTest",
+  "main": "app.js",
+  "author": {
+    "name": "Systence Games",
+    "email": "tinkermeisters@maestrosgame.com"
+  },
+  "dependencies": {
+    "@types/body-parser": "1.16.3",
+    "@types/express": "4.0.35",
+    "@types/mocha": "2.2.41",
+    "@types/morgan": "1.7.32",
+    "@types/nconf": "0.0.34",
+    "@types/node": "6.0.73",
+    "@types/q": "1.0.0",
+    "@types/request": "2.0.11",
+    "@types/serve-favicon": "2.2.28",
+    "@types/serve-static": "1.7.31",
+    "body-parser": "1.17.1",
+    "express": "4.15.2",
+    "jade": "1.11.0",
+    "morgan": "1.8.1",
+    "nconf": "0.8.4",
+    "q": "1.5.0",
+    "request": "2.83.0",
+    "serve-favicon": "2.4.2",
+    "serve-static": "1.12.2",
+    "stylus": "0.54.5",
+    "winston": "2.3.1",
+    "winston-graylog2": "0.6.0"
+  },
+  "devDependencies": {
+    "mocha": "3.1.2",
+    "should": "11.2.1",
+    "sinon": "2.2.0"
+  }
+}
